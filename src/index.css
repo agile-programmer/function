@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: serif;
+}
+
+.nav{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(107, 112, 12);
+  margin-bottom: 30px;
+}
+
+.nav a{
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.nav a{
+  color: rgb(82, 161, 230);
+}
+
+.nav .active{
+  color: red;
+}
